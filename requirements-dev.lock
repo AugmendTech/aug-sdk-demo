@@ -8,7 +8,7 @@
 #   with-sources: false
 
 -e file:.
-aug-sdk @ git+https://github.com/AugmendTech/aug-sdk@0841c9b1f8561907e755752d18d2357340231be0
+aug-sdk @ git+https://github.com/AugmendTech/aug-sdk@45897db6dfa2671c9e022071f56d58895319b58a
     # via aug-sdk-demo
 certifi==2024.7.4
     # via requests
