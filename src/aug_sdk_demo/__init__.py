@@ -14,7 +14,7 @@ def main():
         return 1
     dotenv.load_dotenv()
     api_key = os.environ.get("AUGMEND_API_KEY")
-    root_host = os.environ.get("ROOT_HOST", "https://augmend.com")
+    root_host = os.environ.get("ROOT_HOST", "augmend.com")
     video_client = AugmendVideoClient(api_key=api_key, root_host=root_host, log_callback=print)
 
     wid = video_client.upload_video(video_file)
